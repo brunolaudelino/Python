@@ -35,4 +35,47 @@ print(saldo < saque)
 print(saldo <= saque)
 #Atibuição
 saldo = 500
+saldo += 200
+saldo *= 5
 print(saldo)
+
+#Operadores Lógicos 
+#and / E
+saldo = 1000
+saque = 200
+limite = 100
+
+saldo >= saque and saque <= limite 
+>>> False
+
+#Or / Ou
+saldo= 1000
+saque = 200
+limite = 100
+
+saldo >= saque or saque <= limite 
+>>> True
+
+#Operadores de Identidade 
+
+curso = "Curso de Python"
+nome_curso = curso
+saldo, limite = 200, 200
+
+curso is nome_curso 
+>>> false
+
+#Operadores de Associação
+
+curso = "Curso de Python"
+frutas = ["laranja", "uva", "limão"]
+saques = [1500, 100]
+
+"python" in curso
+>>> True
+
+"maça" not in frutas
+>>> True
+
+200 in saques
+>>> False
